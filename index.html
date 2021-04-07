@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
    
     <title> My Journal Entries </title> 
     </head>
@@ -11,7 +12,7 @@
             <h1> My Journal Entries </h1>
             <img
               src="cinnamoroll.jpg"
-              alt="pancake"
+              alt="cinnamoroll"
               width="250"
             />
             <div> By Claudia H</div> <span>CSE 110 Lab 2</span>
@@ -27,6 +28,11 @@
             <section>
             <h2 id="monday">monday</h2>
             <h3> april 5th, 2021 </h3>
+
+            <p>
+                Today is the beginning of week 2 spring quarter. A normal school day. I want to keep up with my lectures because I have a lot of assignments coming up.
+            </p> 
+
             <h4> today's to do: </h4>
             <ol>
               <li><input type="checkbox" /> Go to chinese class</li>
@@ -35,43 +41,173 @@
               
             </ol>
 
-            <p>
-                Today is the beginning of week 2 spring quarter.
-            </p>
+            <h4> highlights of the day </h4>
+             <ul>
+                <li> package from amazon arrived </li>
+                <li> put a cute sticker on my phone</li>
+              </ul>
+
+
+
+            <h4>song of the day: <h5>"what's wrong" by eric chou</h5></h4>
+            
+            <figure>
+                <figcaption> listen to "what's wrong" by eric chou: </figcaption>
+                <audio
+                    controls
+                    src="怎么了.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </figure>
+
             </section>
 
-        </ection>
+            <hr>
+        <section>
             <h2 id="tuesday">tuesday</h2>
             <h3> april 6th, 2021 </h3>
-            <h4>Step 1</h4>
+    
             <p>
-              In a large bowl, sift together the flour, baking powder, salt and sugar.
-              Make a well in the center and pour in the milk, egg and melted butter;
-              mix until smooth.
+              
+              Today in Chinese class I learned a new vocabulary word. It is <i class="latin">拒绝</i> (ju jue), which means to <i class="latin">reject</i>.
+              I think this is a useful and interesting word. <br>
+              I also made dinner today for myself and my brother. We ate kimchi udon while watching netflix. It was <em> VERY DELICIOUS</em>.
             </p>
-            <h4>Step 2</h4>
-            <p>
-              Heat a lightly oiled griddle or frying pan over medium-high heat. Pour
-              or scoop the batter onto the griddle, using approximately 1/4 cup for
-              each pancake. Brown on both sides and serve hot.
-            </p>
+            <h4> highlights of the day </h4>
+             <ul>
+                 <li> I saw a funny video from one of the survival shows I'm currently watching</li>
+                <li><a href="https://www.youtube.com/watch?v=v8QLrgm5iGI"> watch it here </a></li>
+            
+                
+              </ul>
 
+              <details>
+                <summary>Who is my favorite trainee in Chuang 2021?</summary>
+                My favorite trainee is Oscar Wang!
+            </details>
+
+            <h4> picture of the day</h4>
+            <p>I saw this funny blank meme template. I saved it so I can make a meme in the future.</p>
+              <img class="fit-picture"
+                src="spongebob.jpg"
+                alt="spongebob meme">
+
+            
+            
+            <hr>
         </section>
         <h2 id="wednesday">wednesdsay</h2>
         <h3> april 7th, 2021 </h3>
         <section> 
 
+            <p>
+                Today is a very busy day. I am a bit worried because I have many lectures to 
+                attend and watch, and also <b class="term">a lot</b> of assignments to work on this week. <br>
+                I hope to finish a lot of work today so the rest of the week will not be too <b class="term">stressful</b>.
+            </p>
+            
+            <h4> to do list: </h4>
+             <ul>
+                <li> go to office hours</li>
+                <li>  <strong> work on cse 110 lab</strong></li>
+              </ul>
+
+
+            <h4> funny video of the day </h4>
+            <video controls width="250">
+
+                <source src="douyin.webm"
+                    type="video/webm">
+
+                <source src="douyin.mp4"
+                        type="video/mp4">
+
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+
+
         </section>
         </main>
         <hr />
         <footer>
-            
-            <form onsubmit="alert('Subscribed')">
-              <input type="text" placeholder="Enter Email Address" />
-              <button>Submit</button>
-            </form>
-            <br />
-            <div>&copy; dakota kelly at Allrecipe.com</div>
+            <h3>create a journal entry:</h3>
+   
+            <label for="name">written by: </label>
+            <input type="text" name="name" id="name" required> <br>
+
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+
+                    <label for="day-select">day of the week:</label> <br>
+                    
+
+                        <select id="day-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="monday">monday</option>
+                            <option value="tuesday">tuesday</option>
+                            <option value="wednesday">wednesday</option>
+                            <option value="thursday">thursday</option>
+                            <option value="friday">friday</option>
+                            <option value="saturday">saturday</option>
+                            <option value="sunday">sunday</option>
+                        </select> <br><br>
+
+                        <label for="name">date:</label>
+                        <input type="date" id="start" name="date"
+                        value="2021-04-10"
+                        min="2021-01-01" max="2021-12-31">
+
+                    <fieldset>
+                        <legend>choose a media type</legend>
+                    
+                        <input type="radio" id="image" name="media">
+                        <label for="image">image</label><br/>
+                    
+                        <input type="radio" id="video" name="media">
+                        <label for="video">video</label><br/>
+                    
+                        <input type="radio" id="audio" name="media">
+                        <label for="audio">audio</label>
+                    </fieldset>                    
+                        
+                        
+                    <fieldset>
+                        <legend>completed tasks:</legend>
+                    
+                        <input type="checkbox" id="homework" name="media">
+                        <label for="homework">homework</label><br/>
+                    
+                        <input type="checkbox" id="lectures" name="media">
+                        <label for="lectures">lectures</label><br/>
+                
+                    </fieldset>  
+
+                </div>
+                <br>
+                <div class="form-example">
+                    <label for="story">write entry:</label> <br>
+
+                    <textarea id="story" name="story"
+                              rows="5" cols="33">type here...
+                    </textarea>
+                </div>
+
+                <label for="class-choice">Choose a class:</label>
+                <input list="class-list" id="class-choice" name="class-choice" />
+
+                <datalist id="class-list">
+                    <option value="CSE 110">
+                    <option value="CHIN 20">
+                    <option value="MATH 170B">
+                    <option value="MATH 189">
+                    <option value="MGT 172">
+                </datalist>
+               
+                <br><br>
+
+                <button>Submit</button>
+              </form>
         </footer>
     </body>
 </html>
