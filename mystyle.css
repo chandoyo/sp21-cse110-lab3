@@ -32,6 +32,7 @@ body {
   
   h3 {
     color: lightblue;
+    
     /* Indent the date by 1 cm */
     margin-left: 1cm;
     display: block;
@@ -55,8 +56,6 @@ body {
 
   p {
       color: hsl(50,50,50);
-      
-      
 
       margin-left: 20mm;
       margin-top: 5px;
@@ -66,21 +65,13 @@ body {
       width: 65em;
       font-size: 1.2rem;
 
-      
-      
   }
 
   div {
     color: rgb(134, 111, 81);
-    /*
-    margin: 5px 5px 5px 20px;  
-    */
+
     margin: auto;
-    
-    
-    
-    /*padding: 2em;
-    */
+
   }
 
   details:hover {
@@ -96,23 +87,12 @@ body {
 
   span {
     color: rgb(134, 111, 81);
-    /*
-    margin-left: 20px; 
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px; 
-    */ 
     background-color: rgba(241, 179, 179, 0.5);
     font-size: 1.2rem;
     height: 5ex;
     display: inline;
   }
 
-  img {
-    /*
-    margin: 20px;
-    */
-  }
 
   ul {
     margin: 40px; 
@@ -128,14 +108,6 @@ body {
    
     
   }
-
-footer {
-    
-    /*
-    margin: 40px;
-    padding: 1em;
-    */
-}
  
 button:active {
     color: pink;
