@@ -4,6 +4,32 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+          background-color: linen;
+        }
+        
+        h1 {
+          color: rgb(158, 207, 248);
+          text-align: center;
+          position: sticky;
+          top: 20px;
+        } 
+
+        img {
+            margin-left: 575px;
+        }
+
+        ul {
+            display: flex;
+            flex-basis: auto;
+        }
+    </style>
+
    
     <title> My Journal Entries </title> 
     </head>
@@ -38,6 +64,8 @@
               <li><input type="checkbox" /> Go to chinese class</li>
               <li><input type="checkbox" /> Finish math assignment</li>
               <li><input type="checkbox" /> review cse 110 notes</li>
+              <li><input type="checkbox" /> review notes</li>
+              <li><input type="checkbox" /> watch netflix</li>
               
             </ol>
 
@@ -45,6 +73,7 @@
              <ul>
                 <li> package from amazon arrived </li>
                 <li> put a cute sticker on my phone</li>
+                <li> ate yummy food </li>
               </ul>
 
 
@@ -69,7 +98,8 @@
             <h2 id="tuesday">tuesday</h2>
             <h3> april 6th, 2021 </h3>
     
-            <p>
+
+            <p style="color:maroon;">  
               
               Today in Chinese class I learned a new vocabulary word. It is <i class="latin">拒绝</i> (ju jue), which means to <i class="latin">reject</i>.
               I think this is a useful and interesting word. <br>
@@ -108,10 +138,26 @@
                 I hope to finish a lot of work today so the rest of the week will not be too <b class="term">stressful</b>.
             </p>
             
-            <h4> to do list: </h4>
-             <ul>
+            <h4 > to do list: </h4>
+             <ul style="display: grid; justify-items: center;">
                 <li> go to office hours</li>
                 <li>  <strong> work on cse 110 lab</strong></li>
+                <li>  work on other homework </li>
+              </ul>
+
+              <ul style="display: grid; justify-self: stretch;">
+                <li> meet with cse 110 group</li>
+                <li> make tea</li>
+                <li> read </li>
+              </ul>
+
+              <ul style="display: grid; place-self: center;">
+                <li style="grid-column-start: 2;
+                grid-column-end: five;
+                grid-row-start: row1-start;
+                grid-row-end: 3;"> charge phone</li>
+                <li> do laundry</li>
+                <li> sleep early </li>
               </ul>
 
 
@@ -132,7 +178,7 @@
         </main>
         <hr />
         <footer>
-            <h3>create a journal entry:</h3>
+            <h3 style="margin: 10px 0px;">create a journal entry:</h3>
    
             <label for="name">written by: </label>
             <input type="text" name="name" id="name" required> <br>

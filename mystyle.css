@@ -1,0 +1,177 @@
+/* my style css sheet */
+@font-face {
+    font-family: 'Commissioner';
+    src: url("https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap");
+  }
+
+  html {
+      font-family: 'Commissioner', sans-serif;
+  }
+
+ 
+@media (min-width: 60rem) {
+    p {
+      
+        background-color: powderblue;
+    }
+  }
+  
+body {
+   /* background-color: lightblue; */
+  }
+  
+  /* Make each day purple */
+  h2 {
+    color: #7f89c2;
+    margin-left: 20px; 
+    padding: 2px 5px 4px 2px;
+    position: static;
+
+  }
+
+  
+  h3 {
+    color: lightblue;
+    /* Indent the date by 1 cm */
+    margin-left: 1cm;
+    display: block;
+    
+  }
+
+  h4 {
+    border-style: dashed;
+    border-color: lightsalmon;
+    border-width: 3px;
+    border-radius: 20px;
+
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+    max-width: 5cm;
+    max-height: 10cm;
+  }
+
+  p {
+      color: hsl(50,50,50);
+      
+      
+
+      margin-left: 20mm;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 5px; 
+      
+      width: 65em;
+      font-size: 1.2rem;
+
+      
+      
+  }
+
+  div {
+    color: rgb(134, 111, 81);
+    /*
+    margin: 5px 5px 5px 20px;  
+    */
+    margin: auto;
+    
+    
+    
+    /*padding: 2em;
+    */
+  }
+
+  details:hover {
+    background-color: lightsteelblue;
+      
+  }
+
+  h5{
+    text-decoration: underline;
+    
+    margin: 10px 5px 5px 40px; 
+  }
+
+  span {
+    color: rgb(134, 111, 81);
+    /*
+    margin-left: 20px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px; 
+    */ 
+    background-color: rgba(241, 179, 179, 0.5);
+    font-size: 1.2rem;
+    height: 5ex;
+    display: inline;
+  }
+
+  img {
+    /*
+    margin: 20px;
+    */
+  }
+
+  ul {
+    margin: 40px; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  ol {
+    margin: 40px; 
+    display: flex;
+    
+    justify-content: space-evenly; 
+   
+    
+  }
+
+footer {
+    
+    /*
+    margin: 40px;
+    padding: 1em;
+    */
+}
+ 
+button:active {
+    color: pink;
+      
+}
+/*
+
+div {
+    margin: 20px;
+}
+  label {
+    margin: 30px 10px 20px 40px;
+    
+  }
+
+  input {
+      margin: 10px;
+  }
+
+  datalist {
+      margin: 100px 50px 20px 40px;
+  }
+
+  button {
+      margin-top: 150px;
+  }
+  
+textarea {
+    margin-left: 40px;
+}
+
+fieldset {
+    margin: 20px;
+}
+select {
+    margin: 40px;
+}
+
+*/
