@@ -141,37 +141,50 @@ button:active {
     color: pink;
       
 }
-/*
 
-div {
-    margin: 20px;
+/* Selectors */
+
+.pinkbg {
+    background-color: pink; 
 }
-  label {
-    margin: 30px 10px 20px 40px;
-    
+
+#id {
+    color: saddlebrown;
+}
+
+* {
+    margin-left: 5px;
+}
+
+ a[href^="#"] {
+    color: cornflowerblue;
   }
 
-  input {
-      margin: 10px;
+  li:hover {
+    color: cornflowerblue;
   }
 
-  datalist {
-      margin: 100px 50px 20px 40px;
+  div, label {
+      background: peachpuff;
   }
 
-  button {
-      margin-top: 150px;
+  ul li {
+    list-style-type: circle;
+  }
+
+  div > label {
+      color: peru;
+  }
+
+  h4 ~ h5 {
+    background-color: thistle;
+  }
+
+  ul + details{
+    font-weight: bold;
+  }
+
+  li.pinkbg {
+      background: palevioletred;
   }
   
-textarea {
-    margin-left: 40px;
-}
-
-fieldset {
-    margin: 20px;
-}
-select {
-    margin: 40px;
-}
-
-*/
