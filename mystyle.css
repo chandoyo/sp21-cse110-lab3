@@ -32,6 +32,7 @@ body {
   
   h3 {
     color: lightblue;
+    
     /* Indent the date by 1 cm */
     margin-left: 1cm;
     display: block;
@@ -55,8 +56,6 @@ body {
 
   p {
       color: hsl(50,50,50);
-      
-      
 
       margin-left: 20mm;
       margin-top: 5px;
@@ -66,21 +65,13 @@ body {
       width: 65em;
       font-size: 1.2rem;
 
-      
-      
   }
 
   div {
     color: rgb(134, 111, 81);
-    /*
-    margin: 5px 5px 5px 20px;  
-    */
+
     margin: auto;
-    
-    
-    
-    /*padding: 2em;
-    */
+
   }
 
   details:hover {
@@ -96,23 +87,12 @@ body {
 
   span {
     color: rgb(134, 111, 81);
-    /*
-    margin-left: 20px; 
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px; 
-    */ 
     background-color: rgba(241, 179, 179, 0.5);
     font-size: 1.2rem;
     height: 5ex;
     display: inline;
   }
 
-  img {
-    /*
-    margin: 20px;
-    */
-  }
 
   ul {
     margin: 40px; 
@@ -128,50 +108,55 @@ body {
    
     
   }
-
-footer {
-    
-    /*
-    margin: 40px;
-    padding: 1em;
-    */
-}
  
 button:active {
     color: pink;
       
 }
-/*
 
-div {
-    margin: 20px;
+/* Selectors */
+
+.pinkbg {
+    background-color: pink; 
 }
-  label {
-    margin: 30px 10px 20px 40px;
-    
+
+#id {
+    color: saddlebrown;
+}
+
+* {
+    margin-left: 5px;
+}
+
+ a[href^="#"] {
+    color: cornflowerblue;
   }
 
-  input {
-      margin: 10px;
+  li:hover {
+    color: cornflowerblue;
   }
 
-  datalist {
-      margin: 100px 50px 20px 40px;
+  div, label {
+      background: peachpuff;
   }
 
-  button {
-      margin-top: 150px;
+  ul li {
+    list-style-type: circle;
+  }
+
+  div > label {
+      color: peru;
+  }
+
+  h4 ~ h5 {
+    background-color: thistle;
+  }
+
+  ul + details{
+    font-weight: bold;
+  }
+
+  li.pinkbg {
+      background: palevioletred;
   }
   
-textarea {
-    margin-left: 40px;
-}
-
-fieldset {
-    margin: 20px;
-}
-select {
-    margin: 40px;
-}
-
-*/
