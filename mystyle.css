@@ -1,4 +1,7 @@
 /* my style css sheet */
+
+/* font */
+
 @font-face {
     font-family: 'Commissioner';
     src: url("https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap");
@@ -11,14 +14,10 @@
  
 @media (min-width: 60rem) {
     p {
-      
         background-color: powderblue;
     }
   }
   
-body {
-   /* background-color: lightblue; */
-  }
   
   /* Make each day purple */
   h2 {
@@ -40,16 +39,19 @@ body {
   }
 
   h4 {
+    /* border */
     border-style: dashed;
     border-color: lightsalmon;
     border-width: 3px;
     border-radius: 20px;
 
+    /* padding */
     padding-left: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
 
+    /* width and height */
     max-width: 5cm;
     max-height: 10cm;
   }
@@ -57,6 +59,7 @@ body {
   p {
       color: hsl(50,50,50);
 
+      /* margins */
       margin-left: 20mm;
       margin-top: 5px;
       margin-bottom: 5px;
@@ -71,17 +74,14 @@ body {
     color: rgb(134, 111, 81);
 
     margin: auto;
-
   }
 
   details:hover {
     background-color: lightsteelblue;
-      
   }
 
   h5{
     text-decoration: underline;
-    
     margin: 10px 5px 5px 40px; 
   }
 
@@ -102,11 +102,9 @@ body {
 
   ol {
     margin: 40px; 
+    /* flexbox */
     display: flex;
-    
     justify-content: space-evenly; 
-   
-    
   }
  
 button:active {
@@ -116,30 +114,39 @@ button:active {
 
 /* Selectors */
 
+/* Class Selector */
 .pinkbg {
     background-color: pink; 
 }
 
+/* ID Selector */
 #id {
     color: saddlebrown;
 }
 
+/* Universal Selector */
 * {
     margin-left: 5px;
 }
 
+
+/* Attribute Selector */
  a[href^="#"] {
     color: cornflowerblue;
   }
 
+/* Pseudo Class Selector */
   li:hover {
     color: cornflowerblue;
   }
 
+  /* Selector List */
   div, label {
       background: peachpuff;
   }
 
+  /* Combinators */
+  
   ul li {
     list-style-type: circle;
   }
